@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    height: 100dvh;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+main{
+    width: 50%;
+    height: 70%;
+}
+.container{
+    /* outline: 1px solid red; */
+    display: grid;
+    padding: 10px;
+    gap: 10px;
+    grid-template-columns: repeat(3,1fr);
+
+}
+
+img{
+    height: 122px;
+    aspect-ratio: 4/4;
+    object-fit: contain;
+}
+
+button{
+    padding: 8px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    color: aliceblue;
+    background-color: blue;
+}
